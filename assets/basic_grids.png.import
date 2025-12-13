@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clujt8hpq173b"
-path="res://.godot/imported/basic_boards.png-967e532923cdf8ab7179418693487df6.ctex"
+uid="uid://t62eid03ak4c"
+path="res://.godot/imported/basic_grids.png-7d1d2d771da615775faf2c887217ebba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/basic_boards.png"
-dest_files=["res://.godot/imported/basic_boards.png-967e532923cdf8ab7179418693487df6.ctex"]
+source_file="res://assets/basic_grids.png"
+dest_files=["res://.godot/imported/basic_grids.png-7d1d2d771da615775faf2c887217ebba.ctex"]
 
 [params]
 

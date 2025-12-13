@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy1t3wgnfbn1a"]
+
+[ext_resource type="Texture2D" uid="uid://bkg3ujx51npt5" path="res://assets/basic_tokens.png" id="1_7438t"]
+
+[node name="token" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7438t")
+region_enabled = true
+region_rect = Rect2(0, 0, 102, 102)

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://brac1pk4fosn0"]
+
+[ext_resource type="Texture2D" uid="uid://t62eid03ak4c" path="res://assets/basic_grids.png" id="1_t5fjg"]
+
+[node name="grid" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_t5fjg")
+region_enabled = true
+region_rect = Rect2(680, 20, 640, 479)
