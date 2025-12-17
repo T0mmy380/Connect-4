@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cy1t3wgnfbn1a"]
+[gd_scene load_steps=3 format=3 uid="uid://cy1t3wgnfbn1a"]
 
 [ext_resource type="Texture2D" uid="uid://bkg3ujx51npt5" path="res://assets/basic_tokens.png" id="1_7438t"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7438t"]
+radius = 34.0147
 
 [node name="token" type="Node2D"]
 
@@ -8,3 +11,9 @@
 texture = ExtResource("1_7438t")
 region_enabled = true
 region_rect = Rect2(0, 0, 102, 102)
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+disable_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_7438t")
